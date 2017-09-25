@@ -1,6 +1,4 @@
-FROM luisbebop/go1.2
-
-ENV PATH $PATH:$GOPATH/bin:$GOROOT/bin
+FROM ubuntu:16.04
 
 ADD server /opt/server
 
